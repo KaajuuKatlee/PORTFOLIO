@@ -1,0 +1,62 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FF758F ;
+    padding: 25px;
+}
+.logo a {
+    font-size: 50px;
+    text-decoration: none;
+    font-family: lilita one;
+    color: #800F2F  ;
+    margin-left: 20px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+li a {
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: lilita one;
+    color: #800F2F;
+    transition: all 0.5s;
+    border-width: 2px;
+    border-color: #C9184A ;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #FFF0F3 ;
+}
+body {
+    background-color: #FFCCD5;
+    background-size: contain;
+    background-image: url(https://waifu2x.booru.pics/outfiles/eb54ccb7311ef70555a444f45ce21bb2ad19f31c_s2_n3_y2.jpg)
+}
+li a:hover {
+    font-size: 20px;
+    color: #fc60a8;
+}
+section {
+    background-color: none;
+    width: 900px;
+    height: 600px;
+    left: 50%;
+    right: 50%;
+    margin: 80px;
+}
+#page {
+    margin: 20px;
+    font-size: 50px;
+    display: block;
+    padding: 10px;
+    color: #b100e8;
+}
+#page a:hover {
+    font-size: 50px;
+    background-color: #FFB3C1;
+    color: black ;
+    border-color: black;
+}
